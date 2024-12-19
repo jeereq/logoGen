@@ -100,7 +100,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white p-4 pb-20">
       <WelcomeDialog translations={t} onNameSave={setUserName} />
-      
       <motion.main 
         className="max-w-6xl mx-auto space-y-8"
         initial={{ opacity: 0, y: 20 }}
@@ -201,7 +200,6 @@ export default function Home() {
                 </div>
               </Card>
             </motion.div>
-
             <DrawHistory
               history={history.slice(0, 5)}
               language={language}
@@ -217,7 +215,6 @@ export default function Home() {
           />
         </div>
       </motion.main>
-
       <Dialog open={isFormOpen} onOpenChange={setIsFormOpen}>
         <DialogContent className="bg-gray-900/95 border-white/10 w-[95%] max-w-lg mx-auto">
           <LotteryForm

@@ -110,8 +110,7 @@ export function LotteryForm({
       <DialogHeader>
         <DialogTitle>{t.generate}</DialogTitle>
       </DialogHeader>
-      
-      <ScrollArea className="h-[80vh] md:h-[70vh] px-4">
+      <ScrollArea className="h-[85vh] md:h-[75vh] px-4">
         <form onSubmit={(e) => {
           e.preventDefault();
           generateNumbers();
@@ -125,7 +124,6 @@ export function LotteryForm({
               translations={t}
             />
           </div>
-
           {selectedOption && (
             <>
               <div className="space-y-4">
