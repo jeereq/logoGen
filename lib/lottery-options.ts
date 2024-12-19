@@ -16,7 +16,7 @@ export const lotteryOptions: LotteryOption[] = [
     name: "Lotto 1-50",
     maxNumber: 50,
     minCount: 6,
-    maxCount: 10,
+    maxCount: 15,
     description: "Plage étendue de 1 à 50"
   },
   {
@@ -24,7 +24,7 @@ export const lotteryOptions: LotteryOption[] = [
     name: "Lotto 1-49",
     maxNumber: 49,
     minCount: 6,
-    maxCount: 10,
+    maxCount: 15,
     description: "Format classique 1-49"
   },
   {
@@ -32,7 +32,7 @@ export const lotteryOptions: LotteryOption[] = [
     name: "Lotto 1-40",
     maxNumber: 40,
     minCount: 6,
-    maxCount: 10,
+    maxCount: 15,
     description: "Plage moyenne 1-40"
   },
   {
@@ -40,7 +40,7 @@ export const lotteryOptions: LotteryOption[] = [
     name: "Lotto 1-28",
     maxNumber: 28,
     minCount: 6,
-    maxCount: 10,
+    maxCount: 15,
     description: "Plage compacte 1-28"
   }
 ];

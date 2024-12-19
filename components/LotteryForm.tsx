@@ -50,7 +50,7 @@ export function LotteryForm({
       const combinations = generateRandomCombinations(
         selectedOption.maxNumber,
         numberCount,
-        10
+        15
       );
       setRandomCombinations(combinations);
     }
@@ -170,9 +170,8 @@ export function LotteryForm({
               </div>
 
               <Tabs defaultValue="random" className="w-full">
-                <TabsList className="grid w-full grid-cols-2">
+                <TabsList className="grid w-full">
                   <TabsTrigger value="random">{t.randomCombinations}</TabsTrigger>
-                  <TabsTrigger value="all">{t.showAllCombinations}</TabsTrigger>
                 </TabsList>
                 <TabsContent value="random" className="mt-4">
                   <div className="space-y-4">
